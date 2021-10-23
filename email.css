@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mail-head {
+    background-color: #252525;
+    padding: 1.5em 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.brandwrap img {
+    width: 159px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.welcome-text {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    grid-row: 2/3;
+    line-height: 1.2;
+    align-self: flex-end;
+}
+
+.welcome-img {
+    grid-row: 1/3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.blue-col {
+    color: #4CA9EE;
+}
+
+.cyan-col {
+    color: #29E7CD;
+}
+
+.mail-body {
+    padding: 1em 9%;
+}
+
+.template-heading {
+    font-size: 18px;
+    text-align: center;
+    margin: 1em 0;
+    font-weight: 600;
+    color: #252525;
+}
+
+.template-matter {
+    font-weight: 400;
+    font-size: 8px;
+    text-align: left;
+}
+
+.h-rule {
+    background-color: #4CA9EE;
+    outline: none;
+    height: 2px;
+    margin: 1.5em auto;
+}
+
+.matter-subhead {
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.usp-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.usp-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
