@@ -76,10 +76,94 @@
 .usp-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 1.5em;
+    row-gap: 1.5em;
+    column-gap: 1em;
 }
 
 .usp-item {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+.usp-img img {
+    width: 50.5px;
+    height: 45.5px;
+    margin-right: 1em;
+}
+
+.usp-text {
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.download-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-app img {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.download-app-text {
+    font-size: 10px;
+    color: #757575;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+}
+
+.mail-foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 5%;
+    background-color: #252525;
+    align-items: center;
+}
+
+.template-btn {
+    background-color: #4CA9EE;
+    color: white;
+    text-decoration: none;
+    padding: .6em 1.5em;
+    font-size: 9px;
+    font-weight: 600;
+    display: block;
+    margin: 1.5em;
+    border-radius: 5px;
+}
+
+.foot-brandwrap {
+    display: flex;
+    align-items: center;
+}
+
+.foot-brandwrap img {
+    width: 159px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.links-div {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+    padding-bottom: 1em;
+    display: block;
+    text-align: center;
+}
+
+.links-div img {
+    margin: 0 .5em;
+    width: 26px;
+    height: 26px;
 }
