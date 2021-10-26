@@ -71,14 +71,23 @@
         
         @media screen and (max-width: 420px) {
             .outer {
-                max-width: 320px !important;
+                max-width: 300px !important;
             }
             .webkit {
-                max-width: 320px !important;
+                max-width: 300px !important;
                 width: 100%;
             }
             .banner-img {
-                width: 135px !important;
+                width: 90% !important;
+                object-fit: contain !important;
+                margin-bottom: -30px;
+            }
+            .banner-txt {
+                font-size: 16px !important;
+            }
+            .banner-logo {
+                width: 90% !important;
+                object-fit: contain !important;
             }
         }
     </style>
@@ -94,13 +103,13 @@
                         <table style="border-spacing: 0;width: 100%;">
                             <tr>
                                 <td style="background-color: #252525; padding: 1em 0;padding-left: 4%;">
-                                    <a href="https://www.healthhighway.co.in/"><img src="https://ik.imagekit.io/healthhighway2020/LOGO__1__1_bjHefzOt9Qu.png?updatedAt=1635177979129" alt="health highway" title="health highway" style="  width: 159px;
-                                        height: 25px; padding-bottom: 20px;
+                                    <a href="https://www.healthhighway.co.in/"><img class="banner-logo" src="https://ik.imagekit.io/healthhighway2020/LOGO__1__1_bjHefzOt9Qu.png?updatedAt=1635177979129" alt="health highway" title="health highway" style="  width: 159px;
+                                        height: 25px; padding-bottom: 30px;
                                         object-fit: cover;"></a>
-                                    <h1 style="margin: 0; font-size: 20px ;font-weight: 600; color: white; line-height: 1.3;">
+                                    <h1 class="banner-txt" style="margin: 0; font-size: 20px ;font-weight: 600; color: white; line-height: 1.3;">
                                         Welcome, <br> <span style="color: #4CA9EE;">Vidhu</span> <span style="color: #29E7CD;">Shekhar</span></h1>
                                 </td>
-                                <td style="background-color: #252525;text-align: right;"><img class="banner-img" src="https://ik.imagekit.io/healthhighway2020/backgrounf-mail_6lsnnDBL3vQN.png?updatedAt=1635001175597" alt="welcome" style=" width: 170px;height: auto; padding: 1em 0;padding-right: 10%;object-fit: cover;
+                                <td style="background-color: #252525;text-align: right;"><img class="banner-img" src="https://ik.imagekit.io/healthhighway2020/backgrounf-mail_6lsnnDBL3vQN.png?updatedAt=1635001175597" alt="welcome" style=" width: 170px;height: auto; padding: 1em 0;padding-right: 5%;object-fit: cover;
                                     height: 97px; "></td>
                             </tr>
 
@@ -141,12 +150,12 @@
                                 <tr>
                                     <td style="padding: 1em 6%; ">
                                         <h3 style="color: #252525; text-align: center;   font-size: 16px;
-                                        font-weight: 600;">Download <span style="color: #4CA9EE;">Health</span> <span style="color: #29E7CD;">Highway</span> app </h3>
+                                        font-weight: 600; padding-bottom: 1.25em;">Download <span style="color: #4CA9EE;">Health</span> <span style="color: #29E7CD;">Highway</span> app </h3>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img src="https://ik.imagekit.io/healthhighway2020/Frame_25_XP_LWot4JXc.png?updatedAt=1634991739105" alt="dwnload-app" style=" display: block;margin: 0 auto;margin-bottom: 1em;">
+                                        <img src="https://ik.imagekit.io/healthhighway2020/Frame_25_XP_LWot4JXc.png?updatedAt=1634991739105" alt="dwnload-app" style=" display: block;margin: 0 auto;margin-bottom: 1.5em;">
 
 
                                     </td>
@@ -163,7 +172,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="vertical-align: middle;text-align: center;"> <a href="#" class="template-btn" style="margin-bottom: 2em;">Download Now</a></td>
+                                    <td style="vertical-align: middle;text-align: center;"> <a href="#" class="template-btn" style="margin-bottom: 2em;margin-top: 2em;">Download Now</a></td>
                                 </tr>
                             </table>
                         </td>
